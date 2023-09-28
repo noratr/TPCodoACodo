@@ -69,11 +69,29 @@ transition:.5s ease;
 @media screen and (max-width: 550px) {
     .abrir-menu,
     .cerrar-menu {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        right: 0;
         border: 0;
-        font-size: 1.25rem;
+        width: 3rem;
+        height: 3rem;
+        gap:0.65rem;
+       /* padding:8px;
+        font-size: 1.25rem;*/
         background-color: transparent;
         cursor: pointer;
+    }
+    
+
+   .abrir-menu > div
+
+    {
+    height: 4px;    
+    width: 100%;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+    right: 0;
+    
     }
 
     .abrir-menu {
@@ -83,6 +101,7 @@ transition:.5s ease;
 
     .cerrar-menu {
         color: #1c1c1c;
+        font-size: xx-large;
     }
 
     .nav {
