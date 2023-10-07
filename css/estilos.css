@@ -6,8 +6,7 @@
 }
 
 .contenedor  {
-    
-    background-color:#708a81;
+     background-color:#708a81;
      justify-content: space-between;
      margin-left: 0.05rem;
      margin-right: 0.05rem;
@@ -25,7 +24,7 @@
     /*padding: 0.5rem;*/
     background-color:#E5D1B8;
     height: 150px;
-   
+   margin:0;
 }
 
 .footer {
@@ -49,12 +48,11 @@ main {
 
 
 .logo {
-    font-size: 18px;
+     font-size: 18px;
     font-weight: bold;
     font-style: italic;
    color:#330a0a;
-   
-   
+  
   
    }
 
@@ -129,6 +127,15 @@ h2 {
 
 .slider-frame img {
 	width: 100%;
+    position:relative;
+        
+}
+
+
+.slider-frame img:hover{
+   
+   opacity:0.75;
+   
 }
 
 
@@ -148,7 +155,7 @@ h2 {
 /* acá terminan los estilos para el carrusel*/
 
 
-/*@media screen and (max-width: 968px){
+@media screen and (max-width: 1200px){
 
 
     .header {
@@ -161,7 +168,7 @@ h2 {
     }
 
     .logo {
-        font-size: 10px;
+        font-size:large;
         font-weight: bold;
         font-style: italic;
        color:#330a0a;
@@ -186,11 +193,12 @@ h2 {
 .nav-list {
     list-style-type:none;
     display: flex;
+    gap:2rem;
     }
 
 .nav-footer {
     list-style-type:none;
-    gap: 2rem;
+    gap: 0.5rem;
 }
 
 
@@ -198,24 +206,33 @@ h2 {
 .nav-list li a {
     text-decoration: none;
     color: #1c1c1c;
-     gap:0.02rem;
-   font-size: small;
+    font-size: small;
+    font-weight: bold;
     background-color:#708a81;
    border-radius: 00.5rem; 
+   padding: 0.2rem;
    
 }
 
+.slider-frame img {
+	width: 100%;
+    height: 100%;
+}
 
+.footer
+{
+	padding:none;
+}
 
 }
 
- */ 
+ 
 
 
 
 
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
 
 
     
