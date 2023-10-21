@@ -3,20 +3,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
     font-family: Helvetica;
    max-height: 100%;
+   min-height: 100vh;
 }
 
-
+body{
+     display: flex;
+    flex-wrap: wrap;
+    max-height: 100%;
+   min-height: 100vh;
+}
    
 
 .header {
     display: flex;
     align-items:center;
     justify-content:space-around;
+    align-self: flex-end;
     /*padding: 0.5rem;*/
     background-color:#E5D1B8;
-    height: 150px;
+    width: 100%;
    /*margin:0;*/
    
 }
@@ -25,8 +34,10 @@
     display: flex;
     align-items: end;
     justify-content:space-between;
+    align-self: flex-end;
      padding: 0.5rem;
     background-color:#E5D1B8;
+   width: 100%;
     height: 70px;
     font-weight: bold;
       
@@ -44,7 +55,7 @@
 }
 
 
-/* estilo del div que lleva hacia la galeria de fotos*/
+/* estilo del div cuyo botón  lleva hacia la galeria de fotos*/
    
 .galeria  {
     display: flex;
@@ -271,6 +282,7 @@ h2 {
        font-size: small;
        justify-content: space-between;
        align-self: center;
+       ;
              
         
     }
