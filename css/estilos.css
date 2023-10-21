@@ -16,7 +16,7 @@
     justify-content:space-around;
     /*padding: 0.5rem;*/
     background-color:#E5D1B8;
-    max-height: 150px;
+    height: 150px;
    /*margin:0;*/
    
 }
@@ -29,14 +29,11 @@
     background-color:#E5D1B8;
     height: 70px;
     font-weight: bold;
-    margin-top: auto;
-    
+      
     
  }
 
-    
-
-
+ 
 
 .logo {
      font-size: 18px;
@@ -55,7 +52,7 @@
     margin-right: 0px;
     align-items: center;
     justify-content: space-around;
-   /*  padding: 0.5rem;*/
+   
     background-color:#E5D1B8;
     height: 40px;
     font-weight: bold; 
@@ -63,7 +60,7 @@
    
 }
 
-.galeria button a {
+.galeria a {
     text-decoration: none;
     color: #1c1c1c;
    
