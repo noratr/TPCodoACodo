@@ -1,38 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Galería de Arte</title>
-     <link rel="shortcut icon" href="./img/icono.png">
-    <!---link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"--->
+    <title>Nuestras Obras</title>
+
+    <link rel="shortcut icon" href="./img/icono.png">
+      
+    
+    <link rel="stylesheet" href="./css/galeria.css">
     <link rel="stylesheet" href="./css/estilos.css">
+
+       
+    
 </head>
-<body>
 
-    <header class="header">
+<header class="header" >
+
         
-    </header>
-    <main>
-        <p>Galeria</p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, possimus. Quo recusandae laudantium facilis, dolorum distinctio quas laboriosam. Delectus consequuntur eligendi architecto mollitia temporibus. Laboriosam architecto temporibus reprehenderit praesentium qui?
-        Voluptates quod nihil neque fugit soluta officia nobis dolor incidunt amet iure accusamus animi cum possimus facilis ducimus porro pariatur, vitae consequatur eos esse vel ullam! Reiciendis quis dolore earum.
-        Dignissimos, recusandae suscipit. Magnam, vero. Placeat rerum laborum veniam consequatur dignissimos, quod error debitis, illum consectetur libero dolore blanditiis at mollitia aperiam alias nisi cumque ipsam aut modi nulla velit!
-        Harum, officia provident rerum facilis ducimus cumque, eum aut voluptas a quo minus eaque doloremque quasi commodi praesentium ipsa nobis tempore explicabo ullam animi totam? Amet magni atque quo sequi.
-        Placeat perspiciatis, ab saepe magni nostrum quas necessitatibus, laborum eveniet sint aut nobis praesentium iusto, cupiditate modi. Reiciendis soluta porro doloremque molestiae quod alias distinctio ex. Fuga voluptates quaerat eius?
-        Vero numquam quos at facere, recusandae modi tenetur doloribus itaque pariatur ipsum nisi debitis doloremque. Vel recusandae quia, magnam tenetur rem mollitia accusamus repudiandae veritatis molestias maiores odio quo voluptatem.
-        Fugit quasi repellat ullam saepe? Facilis reiciendis maxime sed, dolorem a eveniet esse ipsa distinctio aliquid minus. Qui excepturi minima laborum molestiae ab harum dignissimos tempore neque asperiores, dolore adipisci!
-        Odio enim dolore magnam reprehenderit optio. Illum hic corporis, explicabo soluta ipsa dolorum vitae expedita beatae sequi labore, ex iusto sed placeat deserunt possimus. Laboriosam molestias mollitia repellendus cumque aliquid!
-        Atque modi, facere sunt magni amet, provident eum dolore fugiat vero earum in id cupiditate officiis necessitatibus corrupti obcaecati omnis, adipisci voluptatibus tempora culpa natus? Similique laboriosam natus dolor est!
-        At, sequi aliquid? Vero, fuga! Consequatur doloribus asperiores repudiandae qui, minima incidunt animi nisi. Repudiandae, accusantium mollitia. Facilis cumque at reiciendis earum magni alias sequi, fuga, eos odit suscipit rerum?
+</header>
 
-    </main>
-    <footer class="footer"> 
+<body>
+    
+    <main class="main">
+        <div id="app">
+        <h1>Obras de nuestra galeria:</h1>
+        <br>
             
+            <select name="tipo" id="tipo">
+              <option  v-for="elemento in tipos" :value="elemento" >{{elemento}}</option>     
+            </select> 
+
+
+
+
+            <button  v-on:click="filtarDatos()">Filtar por técnica</button><br> 
+            <br> 
+
+
+            
+            <!--label for="orden">Orden:</label>
+            <input type="checkbox" name="orden" id="ordenNombre">Nombre
+            <input type="checkbox" name="orden" id="ordenTipo">Tipo
+            <button v-on:click="ordenarDatos()">Ordenar</button--->
+            
+        <div id="contenedor">
+
+            <div class="tarjeta" v-for="elemento in datosFinales">
+                <img v-bind:src="elemento.foto" :alt="elemento.nombre">
+                <p>Autor: {{elemento.id}}</p>
+                <p>Nombre: {{elemento.nombre}}</p>
+                <p>Técnica: {{elemento.tipo}}</p>
+                <p> Breve Reseña:{{elemento.descripcion}}</p>
+            </div>
+        </div>
+    </div>
+</main>
+
+    <footer class="footer" >
+
         
     </footer>
     
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+  
     <script src="./js/main.js"></script>
+    <script src="./js/galeria.js"></script>
 </body>
+
+
 </html>

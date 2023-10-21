@@ -1,0 +1,98 @@
+{
+  "resultados": [
+        {
+            "id":"Carlos Jesús Romero",
+            "nombre":"Dualidad",
+            "descripcion":"la inquietante incertidumbre de dos facetas  ",
+            "foto": "./img/img1.jpg",
+            "tipo":"pintura al óleo"
+        },
+        {
+            "id":"Carlos Jesús Romero",
+            "nombre":"Corazón partido ",
+            "descripcion":"Cúmulo de emociones y vivencias plasmadas en un cuadro  ",
+            "foto": "./img/img2.jpg",
+            "tipo":"pintura al óleo"
+        },
+        {
+            "id":"Claudia Bilbao",
+            "nombre":"El violin encantado",
+            "descripcion":"La belleza y la sutileza de la música se plasma aquí",
+            
+            "foto":"./img/img3.jpg",
+            "tipo":"pintura al óleo"
+        },
+        {
+            "id":"Fernando Pietragalli",
+            "nombre":"El  regreso",
+            "descripcion":"1 Lorem ipsum, dolor sit amet consectetur adipisicing ",
+            "foto":"./img/img4.jpg",
+            "tipo":"acuarela"
+        },
+        {
+            "id":"Fernando Pietragalli",
+            "nombre":"id 5",
+            "descripcion":"6 Lorem ipsum, dolor sit amet consectetur adipisicing eliti",
+            "foto":"./img/img5.jpeg",
+            "tipo":"acuarela"
+        },
+        
+        {
+            "id":"Carlos Jesús Romero",
+            "nombre":"Dualidad",
+            "descripcion":"la inquietante incertidumbre de dos facetas  ",
+            "foto": "./img/img6.jpg",
+            "tipo":"pintura al óleo"
+        },
+        {
+            "id":"Carlos Jesús Romero",
+            "nombre":"Corazón partido ",
+            "descripcion":"1 Lorem ipsum,   ",
+            "foto": "./img/img7.jpg",
+            "tipo":"acuarela"
+        },
+        {
+            "id":"Claudia Bilbao",
+            "nombre":"Tiempos de cambio",
+            "descripcion":"5 Lorem ipsum, dolor sit amet consectetur",
+            "foto":"./img/img8.jpg",
+            "tipo":"pintura al óleo"
+        },
+        {
+            "id":"Julio Schmidt",
+            "nombre":"El  regreso",
+            "descripcion":"1 Lorem ipsum, dolor sit amet consectetur adipisicing ",
+            "foto":"./img/img9.jpeg",
+            "tipo":"acuarela"
+        },
+        {
+            "id":"Claudia Bilbao",
+            "nombre":"Cúpula sagrada",
+            "descripcion":"6 Lorem ipsum, dolor sit amet consectetur adipisicing eliti",
+            "foto":"./img/img10.jpg",
+            "tipo":"fotografía"
+        }
+        ,
+        {
+            "id":"Claudia Bilbao",
+            "nombre":"El templo sagrado",
+            "descripcion":"5 Lorem ipsum, dolor sit amet consectetur",
+            "foto":"./img/img11.jpg",
+            "tipo":"fotografía"
+        },
+        {
+            "id":"Claudia Bilbao",
+            "nombre":"El  regreso",
+            "descripcion":"1 Lorem ipsum, dolor sit amet consectetur adipisicing ",
+            "foto":"./img/img12.jpg",
+            "tipo":"fotografía"
+        },
+        {
+            "id":"Claudia Bilbao",
+            "nombre":"Puente del este",
+            "descripcion":"6 Lorem ipsum, dolor sit amet consectetur adipisicing eliti",
+            "foto":"./img/img13.jpg",
+            "tipo":"fotografía"
+        }
+    ]
+}

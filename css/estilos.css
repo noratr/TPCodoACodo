@@ -1,11 +1,13 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Helvetica;
+   max-height: 100%;
 }
 
-    
+
    
 
 .header {
@@ -14,7 +16,7 @@
     justify-content:space-around;
     /*padding: 0.5rem;*/
     background-color:#E5D1B8;
-    height: 150px;
+    max-height: 150px;
    /*margin:0;*/
    
 }
@@ -27,16 +29,13 @@
     background-color:#E5D1B8;
     height: 70px;
     font-weight: bold;
+    margin-top: auto;
+    position:sticky;
     
  }
 
-
     
-main {
-    display: flex;
-    margin-left: 5px;
-    margin-right: 5px;
- }
+
 
 
 .logo {
@@ -44,9 +43,46 @@ main {
     font-weight: bold;
     font-style: italic;
    color:#330a0a;
-  
-  
-   }
+     margin-top: 0.5rem;
+}
+
+
+/* estilo del div que lleva hacia la galeria de fotos*/
+   
+.galeria  {
+    display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
+    align-items: center;
+    justify-content: space-around;
+   /*  padding: 0.5rem;*/
+    background-color:#E5D1B8;
+    height: 40px;
+    font-weight: bold; 
+   
+   
+}
+
+.galeria button a {
+    text-decoration: none;
+    color: #1c1c1c;
+   
+    font-weight: bold;
+   font-size: large;
+   padding: .6rem;
+   background-color:#708a81;
+   border-radius: 00.5rem; 
+   
+   
+}
+
+.galeria button a:hover {
+    color: #1c1c1c;;
+ background-color:#91b5a8;
+transition:.5s ease;
+}
+ 
+
 
 /*estilos de los menues de navegación*/
   
@@ -93,7 +129,7 @@ h2 {
 
 .slider-frame {
 	max-width: 1400px;
-    height: 450px;
+    height: 420px;
 	/*margin:50px auto 0;*/
     margin-top: 00.2rem;
     margin-bottom: 00.2rem;
@@ -114,17 +150,13 @@ h2 {
 }
 
 .slider-frame img {
-	width: 100%;
+	width:100%;
     
         
 }
 
 
-.slider-frame img:hover{
-   
-   opacity:0.75;
-   
-}
+
 
 
 @keyframes slide {

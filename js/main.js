@@ -53,12 +53,3 @@ footer.innerHTML =' <div>'+
 
 
 
-
-
-
-
-
-
-
-
-
