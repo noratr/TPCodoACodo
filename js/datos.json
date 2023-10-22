@@ -2,8 +2,8 @@
   "resultados": [
         {
             "id":"Carlos Jesús Romero",
-            "nombre":"Dualidad",
-            "descripcion":"la inquietante incertidumbre de dos facetas  ",
+            "nombre":"Amanecer",
+            "descripcion":"un hermoso amanecer en un lugar lejano y paradisíaco  ",
             "foto": "./img/img1.jpg",
             "tipo":"pintura al óleo"
         },
@@ -25,14 +25,14 @@
         {
             "id":"Fernando Pietragalli",
             "nombre":"El  regreso",
-            "descripcion":"1 Lorem ipsum, dolor sit amet consectetur adipisicing ",
+            "descripcion":"explosión de colores que emociona",
             "foto":"./img/img4.jpg",
             "tipo":"acuarela"
         },
         {
             "id":"Fernando Pietragalli",
-            "nombre":"id 5",
-            "descripcion":"6 Lorem ipsum, dolor sit amet consectetur adipisicing eliti",
+            "nombre":"Revolución",
+            "descripcion":"explosión de colores que revoluciona los sentidos ",
             "foto":"./img/img5.jpeg",
             "tipo":"acuarela"
         },
@@ -40,35 +40,35 @@
         {
             "id":"Carlos Jesús Romero",
             "nombre":"Dualidad",
-            "descripcion":"la inquietante incertidumbre de dos facetas  ",
+            "descripcion":"la inquietante incertidumbre de las dos facetas que nos atraviesa ",
             "foto": "./img/img6.jpg",
             "tipo":"pintura al óleo"
         },
         {
-            "id":"Carlos Jesús Romero",
-            "nombre":"Corazón partido ",
-            "descripcion":"1 Lorem ipsum,   ",
+            "id":"Claudia Bilbao",
+            "nombre":"Aires de Africa ",
+            "descripcion":"reminicencias de ancestros de milenarias generaciones  ",
             "foto": "./img/img7.jpg",
-            "tipo":"acuarela"
+            "tipo":"fotografía"
         },
         {
             "id":"Claudia Bilbao",
             "nombre":"Tiempos de cambio",
-            "descripcion":"5 Lorem ipsum, dolor sit amet consectetur",
+            "descripcion":"representa los sentimientos revolucionados de estos tiempos ",
             "foto":"./img/img8.jpg",
             "tipo":"pintura al óleo"
         },
         {
             "id":"Julio Schmidt",
-            "nombre":"El  regreso",
-            "descripcion":"1 Lorem ipsum, dolor sit amet consectetur adipisicing ",
+            "nombre":"El  reflejo",
+            "descripcion":"una abstracción que llama la atención y refleja el alma del autor ",
             "foto":"./img/img9.jpeg",
             "tipo":"acuarela"
         },
         {
             "id":"Claudia Bilbao",
             "nombre":"Cúpula sagrada",
-            "descripcion":"6 Lorem ipsum, dolor sit amet consectetur adipisicing eliti",
+            "descripcion":"representa lo sagrado y la unión de las almas",
             "foto":"./img/img10.jpg",
             "tipo":"fotografía"
         }
@@ -76,21 +76,21 @@
         {
             "id":"Claudia Bilbao",
             "nombre":"El templo sagrado",
-            "descripcion":"5 Lorem ipsum, dolor sit amet consectetur",
+            "descripcion":"la quietud, la calma y el misterio de un lugar atrapante",
             "foto":"./img/img11.jpg",
             "tipo":"fotografía"
         },
         {
             "id":"Claudia Bilbao",
-            "nombre":"El  regreso",
-            "descripcion":"1 Lorem ipsum, dolor sit amet consectetur adipisicing ",
+            "nombre":"El  paraje",
+            "descripcion":"un lugar lleno de inquietantes sensaciones",
             "foto":"./img/img12.jpg",
             "tipo":"fotografía"
         },
         {
             "id":"Claudia Bilbao",
             "nombre":"Puente del este",
-            "descripcion":"6 Lorem ipsum, dolor sit amet consectetur adipisicing eliti",
+            "descripcion":"6 un refugio en medio de la inmensidad y la soledad",
             "foto":"./img/img13.jpg",
             "tipo":"fotografía"
         }
