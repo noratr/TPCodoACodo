@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+
+#contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.contenido1{
+    width: 100%;
+    padding: 10px;
+}
+contenedor img{
+    width:100%;
+    height: auto;
+    object-fit: cover;
+}
+main{
+    box-sizing: border-box;
+    background-color:#708a81;
+}
