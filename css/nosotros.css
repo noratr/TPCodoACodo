@@ -1,0 +1,44 @@
+﻿* {
+    box-sizing: border-box;
+    
+    
+}
+.main {
+ 
+    background-color: #E5D1B8 ;
+    display:flexbox;
+    
+    
+   
+    
+}
+
+.tarjeta {
+    width: 300px;
+    border: 4px solid#708a81;
+   background-color:#efc897 ;
+    padding-bottom: .5rem;
+   margin-bottom: 2rem;
+   
+
+
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 200px;
+
+    object-fit: cover;
+}
+
+
+
+#contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #E5D1B8 ;
+   
+    
+    
+}
