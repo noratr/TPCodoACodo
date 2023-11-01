@@ -107,7 +107,7 @@ transition:.5s ease;
    font-size: large;
    padding: .6rem;
    background-color:#708a81;
-   border-radius: 00.5rem; 
+   border-radius: 10px; 
    
 }
 
@@ -230,7 +230,7 @@ h2 {
     font-size: small;
     font-weight: bold;
     background-color:#708a81;
-   border-radius: 00.5rem; 
+   border-radius: 0.3rem; 
    padding: 0.2rem;
    
 }
@@ -301,7 +301,7 @@ h2 {
     color: #1c1c1c;
     font-size: small;
     background-color:#708a81;
-   border-radius: 0.5rem; 
+   border-radius: 0.2rem; 
    padding: 0.2rem;
    
 
