@@ -8,9 +8,11 @@
     font-family: Helvetica;
 }
 
-    
-   
-
+section {
+   margin-left: 0.2rem;
+   margin-right:  0.2rem;
+     
+}
 
 .header {
     display: flex;
@@ -70,7 +72,7 @@
    font-size: large;
    padding: .6rem;
    background-color:#708a81;
-   border-radius: 00.5rem; 
+   border-radius: 10px; 
    
    
 }
