@@ -24,33 +24,29 @@
 <body>
     
     <main class="main">
-        <div id="app">
-        <h1>Obras de nuestra galería:</h1>
-        <br>
+
             
-            <select name="tipo" id="tipo">
-              <option  v-for="elemento in tipos" :value="elemento" >{{elemento}}</option>     
-            </select> 
 
+    
+       <div id="app">
+         
+        <h1>Obras de nuestra galería:</h1>
+            <br><br>
+            <div id="contenedor">
 
-
-
-            <button  v-on:click="filtarDatos()">Filtar por técnica</button><br> 
-            <br>           
-           
-        <div id="contenedor">
-
-            <div class="tarjeta" v-for="elemento in datosFinales">
-                <img v-bind:src="elemento.foto" :alt="elemento.nombre">
-                <h4 >Autor: {{elemento.id}}</h4>
-                <h4>Obra: {{elemento.nombre}}</h4>
+            <div class="tarjeta" v-for="elemento in datos">
+                <img v-bind:src="elemento.imagen" :alt="elemento.imagen">
+                <h4 >Autor: {{elemento.autor}}</h4>
+                <h4>Obra: {{elemento.titulo}}</h4>
                 <br>
                 <p><b>Técnica:</b> {{elemento.tipo}}</p>
                 <p><b> Breve Reseña:</b>{{elemento.descripcion}}</p>
             </div>
+
+            </div>
         </div>
-    </div>
-</main>
+     
+    </main>
 
     <footer class="footer" >
 
@@ -61,8 +57,9 @@
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
   
-    <script src="./js/main.js"></script>
     <script src="./js/galeria.js"></script>
+    
+    <script src="./js/main.js"></script>
 </body>
 
 
