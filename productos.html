@@ -13,7 +13,6 @@
 </head>
 
 <body>
-  
     <header id="header">
         <!-- place navbar here -->
     </header>
@@ -52,15 +51,15 @@
                             <tbody>
                                 <tr class="" v-for="producto in productos">
                                     <td scope="row">{{producto.id}}</td>
-                                    <td width="50">{{producto.titulo}}</td>
-                                    <td width="70">{{producto.autor}}</td>
-                                    <td >{{producto.descripcion}}</td>
+                                    <td>{{producto.titulo}}</td>
+                                    <td>{{producto.autor}}</td>
+                                    <td>{{producto.descripcion}}</td>
                                     <td>{{producto.tipo}}</td>
                                     <td>
-                                       <img width="60" :src="producto.imagen" :alt="producto.titulogit">
+                                       <img width="60" :src="producto.imagen" :alt="producto.titulo">
                                     </td>
                                     <td>
-                                        <a class="btn btn-outline-primary" :href="'producto_update.html?id='+ producto.id" >Editar</a>
+                                        <a class="btn btn-primary" :href="'producto_update.html?id='+ producto.id" >Editar</a>
                                         
                                 
                                         <button type="button" class="btn btn-danger" v-on:click="eliminar(producto.id)">
