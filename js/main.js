@@ -25,6 +25,7 @@ header.innerHTML= ' <div class="logo">'+
        '<li><a href="./blog.html">Blog</a></li>'+
        '<li><a href="./eventos.html">Eventos</a></li>'+
        '<li><a href="./contacto.html">Contacto</a></li>'+
+       '<li><a href="./productos.html">Administracion</a></li>'+
    '</ul>'+
 '</nav>'+
 '</div>';

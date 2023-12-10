@@ -52,12 +52,12 @@
                             <tbody>
                                 <tr class="" v-for="producto in productos">
                                     <td scope="row">{{producto.id}}</td>
-                                    <td>{{producto.titulo}}</td>
-                                    <td>{{producto.autor}}</td>
-                                    <td>{{producto.descripcion}}</td>
+                                    <td width="50">{{producto.titulo}}</td>
+                                    <td width="70">{{producto.autor}}</td>
+                                    <td >{{producto.descripcion}}</td>
                                     <td>{{producto.tipo}}</td>
                                     <td>
-                                       <img width="60" :src="producto.imagen" :alt="producto.titulo">
+                                       <img width="60" :src="producto.imagen" :alt="producto.titulogit">
                                     </td>
                                     <td>
                                         <a class="btn btn-outline-primary" :href="'producto_update.html?id='+ producto.id" >Editar</a>
