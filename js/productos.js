@@ -12,7 +12,7 @@ const { createApp } = Vue
         imagen:"",
         
  
-        url:'http://noratr.pythonanywhere.com/obras',   // si ya lo subieron a pythonanywhere
+        url:'https://noratr.pythonanywhere.com/obras',   // si ya lo subieron a pythonanywhere
         error:false,
         cargando:true,
 
