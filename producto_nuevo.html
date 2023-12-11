@@ -18,26 +18,31 @@
        <form  style="background-color: aliceblue;margin:10px auto ; width: 400px; padding: 20px;">
         <h1>Alta de Producto</h1>
         <div class="mb-3">
-          <label for="nombre">Titulo</label>
+          <label for="nombre">Titulo : </label>
           <input type="text" name="titulo" id="titulo" v-model="titulo">
         </div>
+        <br>
         <div class="mb-3">
-          <label for="autor">Autor</label>
+          <label for="autor">Autor: </label>
           <input type="text" name="autor" id="autor" v-model="autor">
         </div>
+        <br>
         <div class="mb-3">
-          <label for="descripcion">Descripcion</label>
+          <label for="descripcion">Descripcion: </label>
           <input type="text" name="descripcion" id="descripcion" v-model="descripcion">
         </div>
+        <br>
         <div class="mb-3">
-            <label for="tipo">Tipo</label>
+            <label for="tipo">Tipo: </label>
             <input type="text" name="tipo" id="tipo" v-model="tipo">
           </div>
+          <br>
           <div class="mb-3">
-            <label for="imagen">Imagen</label>
+            <label for="imagen">Imagen: </label>
             <input type="text" width="200" name="imagen" id="imagen" v-model="imagen">
             <img width="400" src="imagen" alt="">
           </div>
+          <br>
   
           <button type="button" class="btn btn-success" v-on:click="grabar()">Grabar</button>
       </form>
