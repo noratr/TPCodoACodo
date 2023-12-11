@@ -11,7 +11,7 @@ const { createApp } = Vue
         descripcion:"",
         tipo:"",
         imagen:"",
-        url:'http://noratr.pythonanywhere.com/obras/'+id,
+        url:'https://noratr.pythonanywhere.com/obras/'+id,
        }  
     },
     methods: {
